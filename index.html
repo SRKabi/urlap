@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Soczó Rajmund</title>
+    <link rel="stylesheet" href="stilus.css">
+</head>
+<body>
+    <main>
+        <header>
+            <h1>Űrlap</h1>
+        </header>
+
+        <nav>
+            <ul>
+                <li><a href="index.html">Menü</a></li>
+                <li><a href="index.html">Menü</a></li>
+                <li><a href="index.html">Menü</a></li>
+            </ul>
+        </nav>
+        
+        <article>
+            <form>
+                <fieldset>
+                    <legend>Személyes adatok</legend>
+                    <div class="block">
+                        <label for="nev">Név</label>
+                        <input type="text" name="nev" id="nev" placeholder="Vezetéknév Keresztnév">
+                    </div>
+
+                    <div class="block">
+                        <label for="psw">Jelszó</label>
+                        <input type="password" name="psw" id="psw" placeholder="Jel">
+                    </div>
+
+                    <div class="block">
+                        <label for="email">E-Mail</label>
+                        <input type="email" name="email" id="email">
+                    </div>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Dáááátuuum</legend>
+                    <label for="teszt">Dátum</label>
+                    <input type="datetime" id="teszt" name="teszt">
+                </fieldset>
+
+
+                <fieldset>
+                    <legend>Nem</legend>
+                    <label for="ferfi">Férfi</label>
+                    <input type="radio" id="ferfi" name="nem">
+
+                    <label for="no">Nő</label>
+                    <input type="radio" id="no" name="nem">
+                </fieldset>
+
+                <fieldset>
+                    <legend>Hobbi - Többet is kilyelölhetsz</legend>
+                    <label for="radio">Rádió</label>
+                    <input type="checkbox" id="radio" name="radio">
+                    
+                    <label for="utazas">Utazás</label>
+                    <input type="checkbox" id="utazas" name="utazas">
+
+                    <label for="kihivas">Kihívás</label>
+                    <input type="checkbox" id="kihivas" name="kihivas">
+
+                    <label for="vonat">Vonat</label>
+                    <input type="checkbox" id="vonat" name="vonat">
+                </fieldset>
+
+
+                <div class="block">
+                <input type="submit" value="küld">
+                </div>
+            </form>
+        </article>
+
+        <footer>
+            <p>Soczó Rajmund</p>
+        </footer>
+    </main>
+</body>
+</html>
